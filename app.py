@@ -60,7 +60,7 @@ FUNCTIONAL RULES:
 
 CODE RULES:
 - Single Streamlit file.
-- Clean, readable, and descriptive code with basic comments.
+- Clean, readable, and descriptive code, No explanatory comments, just add headings in comments.
 - No page title, no descriptions, no automation wording.
 """
 
