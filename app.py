@@ -3,16 +3,6 @@ from openai import OpenAI
 
 st.set_page_config(layout="wide")
 
-# Add custom CSS to hide the GitHub icon
-hide_github_icon = """
-    <style>
-    [data-testid="stHeaderActionElements"] {
-        display: none !important;
-    }
-    </style>
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
-
 # --- UI Setup ---
 st.title("Pandas to Streamlit Converter")
 
